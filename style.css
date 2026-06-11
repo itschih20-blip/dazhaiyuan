@@ -151,7 +151,19 @@ body {
 #language-btn:hover {
   opacity: .7;
 }
+@media (max-width: 768px){
 
+  .navbar{
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    padding: 20px;
+
+  }
+
+}
 
 /* ===== Hero ===== */
 .hero {
@@ -1168,5 +1180,169 @@ margin:8px 0;
 font-size:1.2rem;
 font-weight:700;
 color:#40584A;
+
+}
+
+/* ========================
+   Mobile RWD
+   ======================== */
+
+@media (max-width:768px){
+
+  .hero-title{
+    font-size:3rem !important;
+    line-height:1.2;
+  }
+
+  .hero-subtitle{
+    font-size:1.3rem !important;
+  }
+
+  .section-title{
+    font-size:2rem !important;
+  }
+
+  .quiz-title{
+    font-size:2rem !important;
+  }
+
+  .quiz-text{
+    font-size:1.3rem !important;
+  }
+
+}
+
+  .hero-subtitle{
+    font-size: 1.3rem !important;
+  }
+
+  .section-title{
+    font-size: 2rem !important;
+  }
+
+  .quiz-title{
+    font-size: 2rem !important;
+  }
+
+  .quiz-text{
+    font-size: 1.3rem !important;
+  }
+
+
+/* ========================
+   Mobile RWD
+   ======================== */
+
+@media (max-width:768px){
+
+  .hero-title{
+    font-size:3rem !important;
+    line-height:1.2;
+  }
+
+  .hero-subtitle{
+    font-size:1.3rem !important;
+  }
+
+  .section-title{
+    font-size:2rem !important;
+  }
+
+  .quiz-title{
+    font-size:2rem !important;
+  }
+
+  .quiz-text{
+    font-size:1.3rem !important;
+  }
+
+}
+
+/* ===== Mobile Fix ===== */
+
+@media (max-width:768px){
+
+  .navbar{
+    width:95%;
+    padding:15px;
+    gap:10px;
+  }
+
+  .logo img{
+    width:55px;
+    height:55px;
+  }
+
+  .logo-text h3{
+    font-size:1rem;
+  }
+
+  .logo-text span{
+    font-size:.6rem;
+    letter-spacing:2px;
+  }
+
+  .hero{
+    height:auto;
+    min-height:100vh;
+  }
+
+  .hero-content{
+    bottom:40px;
+  }
+
+  .hero-buttons{
+    flex-direction:column;
+  }
+
+  .primary-btn,
+  .secondary-btn{
+    width:220px;
+  }
+
+  .quiz-section h2{
+    font-size:2.2rem;
+  }
+
+  .quiz-section p{
+    font-size:1.5rem;
+  }
+
+  .product-info h3{
+    font-size:2rem;
+  }
+
+  .product-info p{
+    font-size:1rem;
+  }
+
+  .cart-sidebar{
+    width:100%;
+  }
+
+}
+@media (max-width:768px){
+
+  .navbar{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .logo{
+    gap:8px;
+  }
+
+  .logo-text h3{
+    font-size:0.9rem;
+  }
+
+  .logo-text span{
+    font-size:0.55rem;
+    letter-spacing:1px;
+  }
+
+  .nav-actions{
+    gap:12px;
+  }
 
 }
