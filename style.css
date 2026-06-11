@@ -1354,11 +1354,8 @@ color:#40584A;
     right:-100vw;
   }
 
-  .cart-sidebar.active{
-    right:0;
-  }
-
 }
+
 
 @media (max-width:768px){
 
@@ -1374,4 +1371,9 @@ color:#40584A;
     min-height:75vh;
   }
 
+}
+
+ html,
+body{
+  overflow-x:hidden;
 }
