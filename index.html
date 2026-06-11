@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>大宅院 | DA ZHAI YUAN</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <!-- Progress Bar -->
+  <div id="progress-bar"></div>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo">
+        <img src="images/logo.png" alt="大宅院">
+        <div class="logo-text">
+          <h3>大宅院</h3>
+          <span>DA ZHAI YUAN</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#story" data-lang="navStory">品牌故事</a></li>
+        <li><a href="#products" data-lang="navProducts">產品介紹</a></li>
+        <li><a href="#quiz" data-lang="navQuiz">推薦測驗</a></li>
+        <li><a href="#faq" data-lang="navFaq">FAQ</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="language-btn">中｜EN</button>
+        <div class="cart-icon" id="cartBtn">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span id="cartCount">0</span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+
+
+  </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <img src="images/hero.png" class="hero-bg" alt="hero">
+
+    <div class="bubble-bg">
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+      <div class="floating-bubble"></div>
+    </div>
+
+    <div class="hero-content">
+      <span class="hero-en">DA ZHAI YUAN</span>
+      <p class="hero-desc" data-lang="heroText">
+        從阿嬤的廚房開始，<br>
+        傳承三代的手作風味。<br>
+        嚴選食材，<br>
+        堅持手工製作，<br>
+        把家的溫度帶進每一張餐桌。
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#products" class="primary-btn">探索產品</a>
+        <button class="secondary-btn" id="openOrder">立即訂購</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brand Story -->
+  <section class="story-section" id="story">
+    <div class="story-container">
+      <h2 data-aos="fade-up" data-lang="storyTitle">品牌故事</h2>
+      <p data-aos="fade-up" data-aos-delay="200" data-lang="storyText">
+        大宅院泡菜源自阿嬤傳承多年的手藝。<br>
+        最早以「阿貴泡菜」的名字，陪伴許多家庭的餐桌時光。<br>
+        多年來憑藉真材實料與口耳相傳，累積許多忠實顧客。<br>
+        如今由第二代接手經營，保留家傳風味，<br>
+        同時透過品牌設計與數位行銷，<br>
+        讓更多年輕世代認識這份來自家的味道。
+      </p>
+    </div>
+  </section>
+
+  <!-- Brand Value -->
+  <section class="brand-value">
+    <h2 data-lang="valueTitle">品牌理念</h2>
+
+    <div class="value-grid">
+      <div class="value-card">
+        <h3 data-lang="warmTitle">溫暖</h3>
+        <p data-lang="warmDesc">延續阿嬤傳承的味道與記憶。</p>
+      </div>
+
+      <div class="value-card">
+        <h3 data-lang="sincereTitle">真誠</h3>
+        <p data-lang="sincereDesc">堅持手工製作與真材實料。</p>
+      </div>
+
+      <div class="value-card">
+        <h3 data-lang="closeTitle">親近</h3>
+        <p data-lang="closeDesc">像家人一樣陪伴每位顧客。</p>
+      </div>
+
+      <div class="value-card">
+        <h3 data-lang="innovateTitle">創新</h3>
+        <p data-lang="innovateDesc">用新的方式傳承老味道。</p>
+      </div>
+    </div>
+  </section>
+  <!-- Products -->
+  <section class="products-section" id="products">
+    <h2 data-aos="fade-up" data-lang="productsTitle">產品介紹</h2>
+
+    <!-- 黃金泡菜 -->
+    <div class="product-showcase" data-aos="fade-right">
+      <div class="product-image">
+        <img src="images/kimchi.png" alt="黃金泡菜">
+      </div>
+
+      <div class="product-info">
+        <h3 data-lang="kimchiTitle">黃金泡菜</h3>
+        <p data-lang="kimchiDesc">
+          大宅院最受歡迎的招牌商品。<br>
+          嚴選新鮮山東白菜，搭配獨家黃金蒜香醬汁，<br>
+          口感爽脆、香氣濃郁，<br>
+          不論配飯、拌麵或單吃，都讓人一口接一口。
+        </p>
+      </div>
+    </div>
+
+    <!-- 海帶絲 -->
+    <div class="product-showcase reverse" data-aos="fade-left">
+      <div class="product-image">
+        <img src="images/kelp.png" alt="黃金海帶絲">
+      </div>
+
+      <div class="product-info">
+        <h3 data-lang="kelpTitle">黃金海帶絲</h3>
+        <p data-lang="kelpDesc">
+          精選高品質海帶，<br>
+          Q彈爽脆，蒜香濃郁，<br>
+          是燒烤、火鍋、家常料理的最佳配角。
+        </p>
+      </div>
+    </div>
+
+    <!-- 金針菇 -->
+    <div class="product-showcase" data-aos="fade-right">
+      <div class="product-image">
+        <img src="images/mushroom.png" alt="白玉金針菇">
+      </div>
+
+      <div class="product-info">
+        <h3 data-lang="mushroomTitle">白玉金針菇</h3>
+        <p data-lang="mushroomDesc">
+          鮮嫩金針菇搭配特製醬料，<br>
+          入口滑順，微辣開胃，<br>
+          是許多顧客回購率最高的品項之一。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quiz -->
+  <section id="quiz" class="quiz-section">
+    <h2 data-lang="quizTitle">泡菜推薦測驗</h2>
+    <p data-lang="quizText">你喜歡哪種口感？</p>
+
+    <div class="quiz-options">
+      <button class="quiz-btn" data-result="kimchi" data-lang="quizCrunchy">爽脆</button>
+      <button class="quiz-btn" data-result="kelp" data-lang="quizChewy">Q彈</button>
+      <button class="quiz-btn" data-result="mushroom" data-lang="quizTender">滑嫩</button>
+    </div>
+
+    <div id="quiz-result"></div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq-section">
+    <h2 data-lang="faqTitle">FAQ</h2>
+
+    <div class="faq-item">
+      <button class="faq-question" data-lang="faq1Question">泡菜需要冷藏嗎？</button>
+      <div class="faq-answer" data-lang="faq1Answer">需要冷藏保存，以維持最佳風味。</div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" data-lang="faq2Question">保存期限多久？</button>
+      <div class="faq-answer" data-lang="faq2Answer">依產品標示為主。</div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" data-lang="faq3Question">如何訂購？</button>
+      <div class="faq-answer" data-lang="faq3Answer">加入官方LINE即可訂購。</div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" data-lang="faq4Question">可以宅配嗎？</button>
+      <div class="faq-answer" data-lang="faq4Answer">提供冷藏宅配服務，確保產品新鮮送達。</div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" data-lang="faq5Question">運費如何計算？</button>
+      <div class="faq-answer" data-lang="faq5Answer">1～4罐：160元 ｜ 5～11罐：225元 ｜ 12罐以上免運費</div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" data-lang="faq6Question">收到商品後可以放多久？</button>
+      <div class="faq-answer" data-lang="faq6Answer">請依包裝標示保存期限為主，開封後建議盡快食用完畢。</div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" data-lang="faq7Question">辣度可以選擇嗎？</button>
+      <div class="faq-answer" data-lang="faq7Answer">目前提供辣與不辣，可依個人口味選擇。</div>
+    </div>
+  </section>
+  <!-- LINE -->
+  <section class="line-section">
+    <h2>官方 LINE</h2>
+    <img src="images/line.qr.png" alt="line">
+<p
+    class="line-tip"
+    data-lang="lineTip">
+
+    加入好友獲得最新優惠、
+    新品上市與限時活動消息
+
+    </p>
+  </section>
+
+  <!-- Social -->
+  <section class="social-section">
+    <h2>Follow Us</h2>
+
+    <div class="social-icons">
+      <a href="https://www.instagram.com/dazhaiyuan.kimchi" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://www.threads.com/@dazhaiyuan.kimchi" target="_blank">
+        <i class="fa-brands fa-threads"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 DA ZHAI YUAN</p>
+  </footer>
+
+  <!-- Floating LINE -->
+  <a href="https://line.me/R/ti/p/@127ecrcc" target="_blank" id="floating-line">
+    <i class="fa-brands fa-line"></i>
+  </a>
+
+  <!-- Back To Top -->
+  <button id="backToTop">↑</button>
+
+  <!-- Order Modal -->
+
+<div id="orderModal">
+
+  <div class="modal-content">
+
+    <button id="closeModal" class="close-btn">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <h3>立即訂購</h3>
+
+    <label>選擇商品</label>
+
+    <select id="productSelect">
+      <option>黃金泡菜</option>
+      <option>黃金海帶絲</option>
+      <option>白玉金針菇</option>
+    </select>
+
+    <label>辣度選擇</label>
+
+    <select id="spicySelect">
+      <option>不辣</option>
+      <option>辣</option>
+    </select>
+
+    <label>數量</label>
+
+   <div class="modal-qty">
+
+    <button
+    type="button"
+    id="minusQty">
+
+    －
+
+    </button>
+
+    <span id="qtyDisplay">
+
+    1
+
+    </span>
+
+    <button
+    type="button"
+    id="plusQty">
+
+    ＋
+
+    </button>
+
+    </div>
+
+    <button id="addCartBtn">
+      <i class="fa-solid fa-cart-plus"></i>
+      加入購物車
+    </button>
+
+  </div>
+
+</div>
+
+  <!-- Cart Sidebar -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <div class="cart-sidebar" id="cartSidebar">
+    <h2>購物車</h2>
+    <div id="cartPreview">購物車目前沒有商品</div>
+    <button class="checkout-btn" id="checkoutBtn">前往 LINE 下單</button>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
