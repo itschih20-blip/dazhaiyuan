@@ -1346,3 +1346,32 @@ color:#40584A;
   }
 
 }
+
+@media (max-width:768px){
+
+  .cart-sidebar{
+    width:100vw;
+    right:-100vw;
+  }
+
+  .cart-sidebar.active{
+    right:0;
+  }
+
+}
+
+@media (max-width:768px){
+
+  .hero{
+    min-height:75vh;
+  }
+
+}
+
+@media (max-width:768px){
+
+  .hero{
+    min-height:75vh;
+  }
+
+}
